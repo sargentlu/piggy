@@ -4,6 +4,10 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Ignore bin/rails and bin/rake
+/bin/rails
+/bin/rake
+
 # Ignore bundler config.
 /.bundle
 
@@ -17,11 +21,6 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
-# Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
 
 # Ignore uploaded files in development.
 /storage/*
